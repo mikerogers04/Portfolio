@@ -7,6 +7,7 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import Footer from './components/Footer'
+import './App.css'
 
 const App = () => {
   return (
