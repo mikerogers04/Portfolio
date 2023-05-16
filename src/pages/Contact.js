@@ -12,28 +12,26 @@ const Contact = () => {
               <Input
                   id="firstName"
                   name="first"
-                  placeholder=""
+                  placeholder="First Name"
                   type="text"
                 />
                 <Label for="firstName">
                   First Name
                 </Label>
               </FormGroup>
-              {' '}
             </Col>
             <Col md={6}>
               <FormGroup floating>
               <Input
                   id="lastName"
                   name="last"
-                  placeholder=""
+                  placeholder="Last Name"
                   type="text"
                 />
                 <Label for="lastName">
                   Last Name
                 </Label>
               </FormGroup>
-              {' '}
             </Col>
           </Row>
             <Row>
@@ -42,31 +40,29 @@ const Contact = () => {
                 <Input
                     id="email"
                     name="email"
-                    placeholder=""
+                    placeholder="Email"
                     type="text"
                   />
                   <Label for="email">
                     Email
                   </Label>
                 </FormGroup>
-                {' '}
-              </Col>
+                </Col>
             </Row>
             <Row>
-              <FormGroup floating>
-                  <Col sm={10}>
+              <Col sm={10}>   
+                <FormGroup floating>
                     <Input
                       id="subject"
                       name="subject"
-                      placeholder=""
+                      placeholder="Subject"
                       type="textarea"
                     />
-                  </Col>
-                  <Label for="subject">
-                    Subject
-                  </Label>
-              </FormGroup>
-              {' '}
+                    <Label for="subject">
+                      Subject
+                    </Label>
+                </FormGroup>
+                </Col>
             </Row>
               <Button>
                 Submit
