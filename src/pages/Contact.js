@@ -4,10 +4,11 @@ import { Form, Row, Col, FormGroup, Label, Input, Button } from 'reactstrap'
 const Contact = () => {
   return (
     <>
-        <h1>Contact Page</h1>
-        <Form>
+    <div class="contact-page">
+        <h1>Want to contact me? Fill out the form below. </h1>
+        <Form class="contact-form">
           <Row>
-            <Col md={6}>
+            <Col md={5}>
               <FormGroup floating>
               <Input
                   id="firstName"
@@ -20,7 +21,9 @@ const Contact = () => {
                 </Label>
               </FormGroup>
             </Col>
-            <Col md={6}>
+          </Row>
+          <Row>
+            <Col md={5}>
               <FormGroup floating>
               <Input
                   id="lastName"
@@ -35,7 +38,7 @@ const Contact = () => {
             </Col>
           </Row>
             <Row>
-              <Col md={6}>
+              <Col md={5}>
                 <FormGroup floating>
                 <Input
                     id="email"
@@ -50,7 +53,7 @@ const Contact = () => {
                 </Col>
             </Row>
             <Row>
-              <Col sm={10}>   
+              <Col sm={5}>   
                 <FormGroup floating>
                     <Input
                       id="subject"
@@ -68,6 +71,7 @@ const Contact = () => {
                 Submit
               </Button>
           </Form>
+      </div>
     </>
   )
 }
