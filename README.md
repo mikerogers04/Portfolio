@@ -3,12 +3,20 @@
 This Repository is for my personal portfolio. Work in progress. 
 
 ## To Do List
-- Add photo and text to home page
-- Add description and tech stack to about me
-- Add project descriptions and completed projects to projects page
-- Fix form on contact page
-    - Change size of input boxes
-    - Center all fields
-- Add linkedin and github clickable links on contact page
-- Make filled out information send info to personal email upon submit
-- Add CSS to all pages
+- Home
+    - Add photo 
+    - Add text with name 
+- About Me
+    - Edit description 
+    - Add carousel for tech stack
+- Projects 
+    - Add completed projects into reactstrap cards(?)
+    - Add project descriptions 
+- Contact
+    - Fix form on contact page
+        - Input boxes need to be longer horizontally
+        - Fields not fully centered, need fixing
+    - Add linkedin and github clickable links 
+    - Make filled out information send info to personal email upon submit
+- General Fixes
+    - Add CSS to all pages
