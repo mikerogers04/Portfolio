@@ -12,6 +12,11 @@ const AboutMe = () => {
         <h2>
         I am currently a student at Learn Academy learning full stack web development. Learning different languages and frameworks to build my repertoire of tools for the ongoing journey. It is not how you start your journey, but how you continue to grow along the way in the face of adversity. Being challenged is something I take head on to prove to myself that I can do anything I set my mind to. 
         </h2>
+
+        {/* Carousel Goes Here */}
+        {/* Photos in portfoliov1 */}
+        {/* Languages: JS, CSS, HTML, Ruby, Swift
+        Frameworks/Libraries: ReactJS, Rails, Jest, Rspec, Postgresql */}
     </>
   )
 }
