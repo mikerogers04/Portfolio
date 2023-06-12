@@ -4,8 +4,7 @@ This Repository is for my personal portfolio. Work in progress.
 
 ## To Do List
 - Home
-    - Add photo 
-    - Add text with name 
+    - Add CSS
 - About Me
     - Edit description 
     - Add carousel for tech stack
