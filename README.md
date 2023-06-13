@@ -7,7 +7,7 @@ This Repository is for my personal portfolio. Work in progress.
     - Add color scheme
 - About Me
     - Edit description 
-    - Add carousel for tech stack
+    - Edit CSS on carousel
 - Projects 
     - Add completed projects into reactstrap cards(?)
     - Add project descriptions 
