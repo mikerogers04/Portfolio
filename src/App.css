@@ -97,3 +97,9 @@ footer {
     /* color: white; */
     transform: rotateY(180deg);
   }
+
+  /* About Me CSS */
+  .carousel-item > img {
+    width: 10%;
+    height: 10%;
+  }
