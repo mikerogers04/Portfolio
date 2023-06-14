@@ -99,7 +99,14 @@ footer {
   }
 
   /* About Me CSS */
+
+  /* Styles images in carousel  */
   .carousel-item > img {
     width: 10%;
     height: 10%;
+    display: block;
+    margin: auto;
+  }
+  .carousel-item {
+    justify-content: center;
   }
